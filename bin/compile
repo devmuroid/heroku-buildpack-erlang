@@ -117,7 +117,7 @@ else
             ;;
 	heroku-20)
             echo "-----> Stack is heroku-20"
-            DEFAULT_OTP_VERSION="OTP-25.0"
+            DEFAULT_OTP_VERSION="OTP-22.2.7"
             if [ -f ${build}/.preferred_otp_version ]; then
                 OTP_VERSION=$(cat ${build}/.preferred_otp_version)
             fi
